@@ -1,0 +1,22 @@
+{
+  "name": "example-next-js-redis-page-views",
+  "version": "1.0.0",
+  "description": "Using Redis Sets to store page view counts in a Next.js app",
+  "main": "index.js",
+  "repository": "https://github.com/jsikes/example-next-js-redis-page-views.git",
+  "author": "Joey Sikes <sikes@me.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ioredis": "^5.2.2",
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
